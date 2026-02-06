@@ -1,0 +1,15 @@
+__object__:
+  path: data
+  name: DynamicData
+  args: as_config
+
+file:
+  filestr: "../../datasets/burgers2d/burgers2d_widths_BIG.mat"
+  dataname: "alldata"
+  name: "b2width"
+datasize:
+  subset: 500
+  spacedim: 2
+  space: 30
+  time: 51
+  scaledown: True

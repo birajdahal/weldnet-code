@@ -1,0 +1,20 @@
+__object__:
+  path: data
+  name: DynamicData
+  args: as_config
+
+file:
+  filestr: "shallow/shallow_rads.mat"
+  dataname: "alldata"
+  name: "shallowrads"
+datasize:
+  subset: 81
+  spacedim: 2
+  space: 128
+  time: 101
+  scaledown: True
+constants:
+  xmax: 5.0
+  ymax: 5.0
+  tmax: 1.0
+  periodic: False
