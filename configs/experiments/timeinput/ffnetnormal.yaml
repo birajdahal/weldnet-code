@@ -1,0 +1,9 @@
+__object__:
+  path: models
+  name: TimeInputHelper
+  args: as_config
+
+windows: 1
+ticlass: FFNet
+ffseq: [1, 700, 700, 700, 1]
+activation: relu

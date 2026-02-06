@@ -1,0 +1,9 @@
+__object__:
+  path: models
+  name: HighDimPropHelper
+  args: as_config
+
+windows: 1
+propclass: FFNet
+propseq: [1, 700, 700, 700, 1]
+activation: relu

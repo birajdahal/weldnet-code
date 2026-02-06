@@ -1,0 +1,8 @@
+__object__:
+  path: models
+  name: DONHelper
+  args: as_config
+
+branchseq: [1, 600, 600, 600, 50]
+trunkseq: [2, 600, 600, 600, 50]
+activation: relu

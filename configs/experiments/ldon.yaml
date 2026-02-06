@@ -1,0 +1,16 @@
+__object__:
+  path: models
+  name: LDONHelper
+  args: as_config
+
+donparams:
+  bseq: [4, 400, 400, 400, 40]
+  bactivation: relu
+  tseq: [1, 400, 400, 400, 1]
+  tactivation: relu
+
+aeclass: FFAutoencoder
+aeparams:
+  encodeSeq: [1, 400, 400, 400, 4]
+  decodeSeq: [4, 400, 400, 400, 1]
+  activation: relu

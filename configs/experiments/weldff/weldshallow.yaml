@@ -1,0 +1,16 @@
+__object__:
+  path: models
+  name: WeldHelper
+  args: as_config
+
+windows: 10
+aeclass: FFAutoencoder
+aeparams:
+  encodeSeq: [1, 700, 700, 4]
+  decodeSeq: [4, 700, 700, 1]
+  activation: relu
+
+seqclass: FFNet
+seqparams:
+  seq: [4, 400, 400, 4]
+  activation: relu

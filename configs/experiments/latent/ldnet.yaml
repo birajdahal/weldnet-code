@@ -1,0 +1,14 @@
+__object__:
+  path: models
+  name: LDNetHelper
+  args: as_config
+
+dynclass: FFNet
+dynparams:
+  seq: [4, 500, 500, 500, 4]
+  activation: relu
+
+decclass: FFNet
+recparams:
+  seq: [4, 500, 500, 500, 1]
+  activation: relu

@@ -1,0 +1,23 @@
+__object__:
+  path: models
+  name: WeldHelper
+  args: as_config
+
+windows: 10
+aeclass: ConvAutoEncoder
+aeparams:
+  sample:
+    spatial_resolution: 512
+    latents_dims: 4
+  downblocks:
+      channels: [16, 16, 16]
+      kernel_stride_paddings: 
+      - [16, 2, 1]
+      - [16, 2, 1]
+      - [16, 2, 1]
+      actvn: relu
+    
+seqclass: FFNet
+seqparams:
+  seq: [4, 300, 300, 300, 4]
+  activation: relu
