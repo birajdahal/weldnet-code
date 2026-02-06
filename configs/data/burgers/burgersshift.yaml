@@ -1,0 +1,19 @@
+__object__:
+  path: data
+  name: DynamicData
+  args: as_config
+
+file:
+  filestr: "burgers/grfarc2visc0p001-shift.mat"
+  dataname: "grfarc2visc0p001"
+  name: "bshift"
+datasize:
+  subset: 500
+  space: 512
+  time: 201
+  scaledown: True
+  spacedim: 1
+constants:
+  xmax: 1.0
+  tmax: 1.0
+  periodic: True

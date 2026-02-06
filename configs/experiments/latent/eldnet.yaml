@@ -1,0 +1,20 @@
+__object__:
+  path: models
+  name: ELDNetHelper
+  args: as_config
+
+aeclass: FFAutoencoder
+aeparams:
+  encodeSeq: [4, 300, 300, 300, 1]
+  decodeSeq: [4, 300, 300, 300, 1]
+  activation: relu
+
+dynclass: FFNet
+dynparams:
+  seq: [4, 500, 500, 500, 4]
+  activation: relu
+
+decclass: FFNet
+recparams:
+  seq: [4, 500, 500, 500, 1]
+  activation: relu

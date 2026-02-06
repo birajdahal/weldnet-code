@@ -1,0 +1,15 @@
+__object__:
+  path: models
+  name: WeldHelper
+  args: as_config
+
+windows: 10
+aeclass: PCAAutoencoder
+aeparams:
+  inputdim: 1
+  reduced: 4
+
+seqclass: FFNet
+seqparams:
+  seq: [4, 300, 300, 300, 4]
+  activation: relu
